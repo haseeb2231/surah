@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(92, 249, 249);
+    text-align: center;
+    padding-bottom: 3px;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: inherit;
+}
+#surahname {
+
+border-radius: 10px 0px 10px 0px;
+border-color: rgb(180, 93, 251);
+box-sizing: 10px;
+box-shadow: 0cqmax;
+}
+# button show :hover {
+
+}

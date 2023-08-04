@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        A List of 114 Quran Surah </h1> 
+        <label for="Surahname">Number of Surah</label>
+     <input type="number" id="Surahname">
+     
+     <button id="note()">Enter Number</button>
+     <h2 id="show">show here</h2>
+         <script src="index.js"></script>
+     <script>
+
+
+
+
+
+let one= document.getElementById('show')
+
+function note() {
+    const ibad=document.getElementById('Surahname').value
+let slat= ["Al-Fatihah", "Al-Baqarah", "Aal-E-Imran", "An-Nisa"]
+
+for (let index=0; index<ibad; index++)
+    one.innerHTML= slat[ibad]
+
+
+}
+
+
+     </script>
+</body>
+</html>
